@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "166327136200",
+    "project_id": "sneaker-5b91f",
+    "storage_bucket": "sneaker-5b91f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:166327136200:android:8d89f005d79c23522b5afd",
+        "android_client_info": {
+          "package_name": "com.example.app_flutt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "166327136200-5ocjqtkg83t188g5acaq4r4omtuu3mej.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCeEuFtS1UehZ-LYWDDqhnjbc4VBPy6LE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "166327136200-5ocjqtkg83t188g5acaq4r4omtuu3mej.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "166327136200-91mubro40qbub0l5u13ismf5uj4rcqtu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.appFlutt"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
