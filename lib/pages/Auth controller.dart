@@ -27,9 +27,9 @@ class Authcontroller extends GetxController {
   _initialScreen(User? user) {
     if (user == null) {
       print("Login page");
-      Get.offAll(() => loginPage());
+      Get.offAll(() => const loginPage());
     } else {
-      Get.offAll(() => LogOut_page(email: user.email!));
+      Get.offAll(() => const homepage()); 
     }
   }
 
@@ -72,7 +72,7 @@ class Authcontroller extends GetxController {
         stream: FirebaseAuth.instance.authStateChanges(),
         builder: (BuildContext context, snapshot) {
           if (snapshot.hasData) {
-            return homepage();
+            return const homepage();
           } else {
             return const loginPage();
           }
