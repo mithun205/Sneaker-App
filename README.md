@@ -15,4 +15,4 @@ For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
-![Picsart_24-06-07_13-55-15-510](https://github.com/mithun205/Sneaker-App/assets/126346172/3a4d7ab9-a5e4-47ac-90c3-097747466cea)
+![c46f1cea-f0b1-49c6-a0cc-dbfab5ec8d8a](https://github.com/user-attachments/assets/4e5b7a14-2768-4d11-895f-2097fab7b9af)
