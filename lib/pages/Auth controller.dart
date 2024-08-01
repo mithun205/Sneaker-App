@@ -1,4 +1,5 @@
 import 'package:app_flutt/pages/Log%20outpage.dart';
+import 'package:app_flutt/pages/intropage.dart';
 import 'package:app_flutt/pages/loginPage.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
@@ -29,7 +30,9 @@ class Authcontroller extends GetxController {
       print("Login page");
       Get.offAll(() => const loginPage());
     } else {
-      Get.offAll(() => const homepage()); 
+      Get.offAll(() => const Intropage());
+
+      Get.offAll(() => const homepage());
     }
   }
 
@@ -72,7 +75,7 @@ class Authcontroller extends GetxController {
         stream: FirebaseAuth.instance.authStateChanges(),
         builder: (BuildContext context, snapshot) {
           if (snapshot.hasData) {
-            return const homepage();
+            return const Intropage();
           } else {
             return const loginPage();
           }
