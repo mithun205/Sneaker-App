@@ -15,7 +15,7 @@ class CartItem extends StatefulWidget {
 class _CartItemState extends State<CartItem> {
   //remove item from cart
   void removeItemFromCart(){
-    Provider.of<cart>(context,listen: false).removeItemFromCart(widget.shoe);
+    Provider.of<Cart>(context,listen: false).removeItemFromCart(widget.shoe);  //change need
   }
 
   @override
