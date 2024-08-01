@@ -70,6 +70,26 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - images/
+    - images/shoe 1.png
+    - images/shoe 2.png
+    - images/shoe  3.png
+    - images/shoe 4.png
+    - images/shoe 5.png
+    - images/shoe 6.png
+    - images/shoe 7.png
+    - images/nike.png
+    - images/jorden.png
+    - images/google.png
+    - images/apple.png
+    - images/banner 1.png
+    - images/banner 2.png
+    - images/banner 3.png
+    - images/banner 4.png
+    - images/banner 5.png
+    - images/casual shoe.png
+    - images/formal shoe.png
+    - images/sport shoe.png
+    - images/Seasonal shoe.png
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
 
